@@ -4,7 +4,7 @@ import os
 
 # elk = 'https://elastic:5gCM65s1VT3PNasGq3f91G08@localhost:9201'
 elk = os.environ.get('ES_CONF')
-
+print(elk)
 try: 
     elk
 except NameError:
